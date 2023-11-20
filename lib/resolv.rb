@@ -1117,7 +1117,6 @@ class Resolv
       end
 
       def resolv(name)
-        debugger
         candidates = generate_candidates(name)
         timeouts = @timeouts || generate_timeouts
         timeout_error = false
